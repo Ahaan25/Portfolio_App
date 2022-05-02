@@ -8,7 +8,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#90BCAC"
+        android:background="#b2dbd7"
         android:paddingTop="5dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".MainActivity">
@@ -54,7 +54,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="320dp"
                 android:clickable="true"
-                app:srcCompat="@drawable/github"
+                app:srcCompat="@drawable/githubwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
@@ -66,7 +66,7 @@
                 android:layout_marginStart="182dp"
                 android:layout_marginTop="319dp"
                 android:clickable="true"
-                app:srcCompat="@drawable/insta"
+                app:srcCompat="@drawable/instawhite"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
@@ -78,7 +78,7 @@
                 android:layout_marginStart="108dp"
                 android:layout_marginTop="321dp"
                 android:clickable="true"
-                app:srcCompat="@drawable/linkedin2"
+                app:srcCompat="@drawable/linkedinwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
@@ -90,7 +90,7 @@
                 android:layout_marginStart="247dp"
                 android:layout_marginTop="311dp"
                 android:clickable="true"
-                app:srcCompat="@drawable/facebook"
+                app:srcCompat="@drawable/faceboookwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageView
@@ -102,9 +102,8 @@
                 android:layout_marginStart="329dp"
                 android:layout_marginTop="313dp"
                 android:clickable="true"
-                app:srcCompat="@drawable/gmail"
+                app:srcCompat="@drawable/emailwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
-
 
         </RelativeLayout>
 
