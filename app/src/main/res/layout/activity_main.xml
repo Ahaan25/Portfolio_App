@@ -21,6 +21,24 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="340dp"
+                android:fontFamily="@font/montserratmediumitalic"
+                android:text="@string/test"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="HardcodedText,SpUsage"
+                tools:layout_editor_absoluteY="220dp" />
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,9 +63,9 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="105dp"
+                android:layout_marginStart="102dp"
                 android:layout_marginTop="45dp"
-                android:layout_marginEnd="106dp"
+                android:layout_marginEnd="109dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.497"
                 app:layout_constraintStart_toStartOf="parent"
@@ -60,17 +78,15 @@
                 android:layout_height="50dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="336dp"
-                android:layout_marginTop="424dp"
-                android:layout_marginEnd="25dp"
+                android:layout_marginStart="333dp"
+                android:layout_marginTop="386dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.954"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.964"
+                app:layout_constraintVertical_bias="0.953"
                 app:srcCompat="@drawable/emailwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
 
@@ -81,7 +97,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="22dp"
-                android:layout_marginTop="423dp"
+                android:layout_marginTop="384dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -97,7 +113,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="97dp"
-                android:layout_marginTop="424dp"
+                android:layout_marginTop="385dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -115,7 +131,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="176dp"
-                android:layout_marginTop="424dp"
+                android:layout_marginTop="385dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -133,7 +149,7 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="254dp"
-                android:layout_marginTop="424dp"
+                android:layout_marginTop="385dp"
                 android:clickable="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -143,6 +159,70 @@
                 app:layout_constraintVertical_bias="0.952"
                 app:srcCompat="@drawable/faceboookwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="-2dp"
+                android:layout_marginBottom="0dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp">
+
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Button" />
+
+                    <Space
+                        android:layout_width="25dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Button" />
+
+                    <Space
+                        android:layout_width="25dp"
+                        android:layout_height="50dp" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Button" />
+
+                    <Space
+                        android:layout_width="25dp"
+                        android:layout_height="50dp" />
+                    
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Button" />
+
+                    <Space
+                        android:layout_width="25dp"
+                        android:layout_height="50dp" />
+                    
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="Button" />
+
+                </TableRow>
+            </TableLayout>
 
         </RelativeLayout>
 
