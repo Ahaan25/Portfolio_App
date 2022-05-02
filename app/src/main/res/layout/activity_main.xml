@@ -74,13 +74,14 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="110dp"
+                android:layout_height="62dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="333dp"
-                android:layout_marginTop="386dp"
+                android:layout_marginStart="328dp"
+                android:layout_marginTop="373dp"
                 android:clickable="true"
+                android:paddingRight="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
@@ -92,8 +93,8 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="22dp"
@@ -108,8 +109,8 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="97dp"
@@ -126,8 +127,8 @@
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="176dp"
@@ -144,8 +145,8 @@
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="254dp"
@@ -159,70 +160,6 @@
                 app:layout_constraintVertical_bias="0.952"
                 app:srcCompat="@drawable/faceboookwhite"
                 tools:ignore="SpeakableTextPresentCheck" />
-
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="-2dp"
-                android:layout_marginBottom="0dp">
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp">
-
-
-                    <Button
-                        android:id="@+id/button"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:text="Button" />
-
-                    <Space
-                        android:layout_width="25dp"
-                        android:layout_height="50dp" />
-
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:text="Button" />
-
-                    <Space
-                        android:layout_width="25dp"
-                        android:layout_height="50dp" />
-
-                    <Button
-                        android:id="@+id/button3"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:text="Button" />
-
-                    <Space
-                        android:layout_width="25dp"
-                        android:layout_height="50dp" />
-                    
-                    <Button
-                        android:id="@+id/button4"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:text="Button" />
-
-                    <Space
-                        android:layout_width="25dp"
-                        android:layout_height="50dp" />
-                    
-                    <Button
-                        android:id="@+id/button5"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:text="Button" />
-
-                </TableRow>
-            </TableLayout>
 
         </RelativeLayout>
 

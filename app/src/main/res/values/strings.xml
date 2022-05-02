@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Ahaan Portfolio</string>
     <string name="test">VIT Bhopal, B.Tech in CSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
