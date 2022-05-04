@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.widget.Toast;
 
 public class Experience extends AppCompatActivity {
 
@@ -14,6 +15,9 @@ public class Experience extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_experience);
+
+        Toast.makeText(Experience.this, "Swipe in reverse to go back to home page.",Toast.LENGTH_SHORT).show();
+
     }
 
     public boolean onTouchEvent(MotionEvent touchevent){
