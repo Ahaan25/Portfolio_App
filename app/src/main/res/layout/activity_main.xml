@@ -57,7 +57,8 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/abc" />
+        app:srcCompat="@drawable/portfolio_test"
+        android:background="@drawable/circle"/>
 
     <ImageView
         android:id="@+id/imageView6"
