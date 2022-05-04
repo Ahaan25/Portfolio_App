@@ -8,20 +8,19 @@
     tools:context=".Experience">
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="172dp"
-        android:fontFamily="@font/montserratmedium"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/montserratmediumitalic"
         android:text="Experience"
         android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="HardcodedText,SpUsage" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
