@@ -21,7 +21,7 @@ public class Projects extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects);
-        Toast.makeText(Projects.this, "Press and hold for more information",Toast.LENGTH_LONG).show();
+        Toast.makeText(Projects.this, "Press and hold on project for more information",Toast.LENGTH_SHORT).show();
 
         rescu=findViewById(R.id.textView7);
         rescu.setOnLongClickListener(new View.OnLongClickListener() {
