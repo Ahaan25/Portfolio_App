@@ -8,6 +8,26 @@
     tools:context=".Experience">
 
     <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/montserratmedium"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="1) Project lead: Lead the teams for Rescu and Blood-Help(2022) \n2) After participating in 4 hackathons in my 2nd year of college, I received silver medals in 2 of them. \n3) Worked on solo projects as hobbies. Programming started off as a hobby so now after so many personal projects, I have quite a lot of experience regarding the skills and knowledge."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
