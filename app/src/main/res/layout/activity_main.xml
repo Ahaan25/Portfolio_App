@@ -53,12 +53,12 @@
         android:layout_marginStart="102dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="109dp"
+        android:background="@drawable/circle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/portfolio_test"
-        android:background="@drawable/circle"/>
+        app:srcCompat="@drawable/portfolio_test" />
 
     <ImageView
         android:id="@+id/imageView6"

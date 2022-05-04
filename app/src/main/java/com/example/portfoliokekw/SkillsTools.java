@@ -25,7 +25,7 @@ public class SkillsTools extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2=touchevent.getX();
                 y2= touchevent.getY();
-                if(y2<y1){
+                if(x2<x1){
                     Intent i=new Intent(SkillsTools.this, MainActivity.class);
                     startActivity(i);
                 }

@@ -25,7 +25,7 @@ public class AboutMe extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2=touchevent.getX();
                 y2= touchevent.getY();
-                if(x2<x1){
+                if(y2<y1){
                     Intent i=new Intent(AboutMe.this, MainActivity.class);
                     startActivity(i);
                 }

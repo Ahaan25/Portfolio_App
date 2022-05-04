@@ -92,11 +92,11 @@ public class MainActivity extends AppCompatActivity {
                 x2=touchevent.getX();
                 y2= touchevent.getY();
                 if(x1<x2){
-                    Intent i=new Intent(MainActivity.this, AboutMe.class);
+                    Intent i=new Intent(MainActivity.this, SkillsTools.class);
                     startActivity(i);
                 }
                 else if(y1<y2) {
-                    Intent i= new Intent(MainActivity.this, SkillsTools.class);
+                    Intent i= new Intent(MainActivity.this, AboutMe.class);
                     startActivity(i);
                 }
                 else if(x2<x1) {
