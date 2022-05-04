@@ -91,20 +91,20 @@ public class MainActivity extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2=touchevent.getX();
                 y2= touchevent.getY();
-                if(x1<x2){
+                if(x1<x2&&y1<y2){
                     Intent i=new Intent(MainActivity.this, SkillsTools.class);
                     startActivity(i);
                 }
-                else if(y1<y2) {
+                else if(y1<y2&&x2<x1) {
                     Intent i= new Intent(MainActivity.this, AboutMe.class);
                     startActivity(i);
                 }
-                else if(x2<x1) {
-                    Intent i= new Intent(MainActivity.this, Projects.class);
+                else if(x2<x1&&y2<y1) {
+                    Intent i= new Intent(MainActivity.this, Experience.class);
                     startActivity(i);
                 }
-                else if(y2<y1) {
-                    Intent i= new Intent(MainActivity.this, Experience.class);
+                else if(y2<y1&&x1<x2) {
+                    Intent i= new Intent(MainActivity.this, Projects.class);
                     startActivity(i);
                 }
                 break;

@@ -25,7 +25,7 @@ public class Experience extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2=touchevent.getX();
                 y2= touchevent.getY();
-                if(y1<y2){
+                if(x2>x1&&y2>y1){
                     Intent i=new Intent(Experience.this, MainActivity.class);
                     startActivity(i);
                 }
