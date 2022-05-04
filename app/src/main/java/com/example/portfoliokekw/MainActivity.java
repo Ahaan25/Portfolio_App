@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
     ImageView git, link, insta, fb, mail;
+    float x1, x2, y1, y2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,4 +81,35 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public boolean onTouchEvent(MotionEvent touchevent){
+        switch (touchevent.getAction()){
+            case MotionEvent.ACTION_DOWN:
+                x1=touchevent.getX();
+                y1=touchevent.getY();
+                break;
+            case MotionEvent.ACTION_UP:
+                x2=touchevent.getX();
+                y2= touchevent.getY();
+                if(x1<x2){
+                    Intent i=new Intent(MainActivity.this, AboutMe.class);
+                    startActivity(i);
+                }
+                else if(y1<y2) {
+                    Intent i= new Intent(MainActivity.this, SkillsTools.class);
+                    startActivity(i);
+                }
+                else if(x2<x1) {
+                    Intent i= new Intent(MainActivity.this, Projects.class);
+                    startActivity(i);
+                }
+                else if(y2<y1) {
+                    Intent i= new Intent(MainActivity.this, Experience.class);
+                    startActivity(i);
+                }
+                break;
+        }
+        return false;
+    }
+
 }
