@@ -32,6 +32,7 @@ public class Experience extends AppCompatActivity {
                 if(x2>x1&&y2>y1){
                     Intent i=new Intent(Experience.this, MainActivity.class);
                     startActivity(i);
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 break;
         }

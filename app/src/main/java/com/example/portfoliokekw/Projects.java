@@ -183,6 +183,7 @@ public class Projects extends AppCompatActivity {
                 if(y2>y1&&x1>x2){
                     Intent i=new Intent(Projects.this, MainActivity.class);
                     startActivity(i);
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 break;
         }

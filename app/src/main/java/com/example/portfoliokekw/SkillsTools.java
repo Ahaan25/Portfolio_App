@@ -32,6 +32,7 @@ public class SkillsTools extends AppCompatActivity {
                 if(x1>x2&&y1>y2){
                     Intent i=new Intent(SkillsTools.this, MainActivity.class);
                     startActivity(i);
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 break;
         }

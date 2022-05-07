@@ -32,6 +32,7 @@ public class AboutMe extends AppCompatActivity {
                 if(y1>y2&&x2>x1){
                     Intent i=new Intent(AboutMe.this, MainActivity.class);
                     startActivity(i);
+                    overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 break;
         }
