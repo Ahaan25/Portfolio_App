@@ -22,6 +22,7 @@ public class Projects extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_projects);
 
+        Toast.makeText(Projects.this, "Press and hold to view more details.", Toast.LENGTH_LONG).show();
         Toast.makeText(Projects.this, "Swipe in reverse to go back to home page. \nPress and hold on project for more information",Toast.LENGTH_SHORT).show();
 
         rescu=findViewById(R.id.textView7);
