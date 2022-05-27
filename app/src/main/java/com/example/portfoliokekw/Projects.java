@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class Projects extends AppCompatActivity {
 
-    TextView rescu, bhelp, guitarstrum, omnitrix, anonforum;
+    TextView rescu, bhelp, guitarstrum, omnitrix, anonforum, portfolio;
     float x1, x2, y1, y2;
 
     @Override
@@ -161,6 +161,35 @@ public class Projects extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Uri uri=Uri.parse("https://github.com/Ahaan25/AnonForum");
+                        Intent intent=new Intent(Intent.ACTION_VIEW, uri);
+                        startActivity(intent);
+                    }
+                });
+                builder.show();
+                return false;
+            }
+        });
+
+        portfolio=findViewById(R.id.textView15);
+        portfolio.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                AlertDialog.Builder builder=new AlertDialog.Builder(Projects.this);
+                builder.setCancelable(true);
+                builder.setTitle("Description");
+                builder.setMessage("An android application showcasing my skills and talents as a software developer.");
+
+                builder.setNegativeButton("Back", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.cancel();
+                    }
+                });
+
+                builder.setPositiveButton("Open GitHub repo", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Uri uri=Uri.parse("https://github.com/Ahaan25/Portfolio_App");
                         Intent intent=new Intent(Intent.ACTION_VIEW, uri);
                         startActivity(intent);
                     }
