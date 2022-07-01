@@ -119,7 +119,7 @@ public class Projects extends AppCompatActivity {
                 AlertDialog.Builder builder=new AlertDialog.Builder(Projects.this);
                 builder.setCancelable(true);
                 builder.setTitle("Description");
-                builder.setMessage("First project on android wear, created to mimic the omnitrix watch from the show Ben 10. \nIt creates custom watch faces with sound effects");
+                builder.setMessage("First project on android wear and in kotlin, created to mimic the omnitrix watch from the show Ben 10. \nIt creates custom watch faces with sound effects");
 
                 builder.setNegativeButton("Back", new DialogInterface.OnClickListener() {
                     @Override
@@ -131,7 +131,7 @@ public class Projects extends AppCompatActivity {
                 builder.setPositiveButton("Open GitHub repo", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        Uri uri=Uri.parse("https://github.com/Ahaan25/Omnitrix");
+                        Uri uri=Uri.parse("https://github.com/Ahaan25/OmnitrixKotlin");
                         Intent intent=new Intent(Intent.ACTION_VIEW, uri);
                         startActivity(intent);
                     }
