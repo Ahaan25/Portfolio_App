@@ -111,24 +111,24 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case MotionEvent.ACTION_UP:
                 x2=touchevent.getX();
-                y2= touchevent.getY();
+                y2=touchevent.getY();
                 if(x1<x2&&y1<y2){
                     Intent i=new Intent(MainActivity.this, SkillsTools.class);
                     startActivity(i);
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 else if(y1<y2&&x2<x1) {
-                    Intent i= new Intent(MainActivity.this, AboutMe.class);
+                    Intent i=new Intent(MainActivity.this, AboutMe.class);
                     startActivity(i);
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 else if(x2<x1&&y2<y1) {
-                    Intent i= new Intent(MainActivity.this, Experience.class);
+                    Intent i=new Intent(MainActivity.this, Experience.class);
                     startActivity(i);
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
                 else if(y2<y1&&x1<x2) {
-                    Intent i= new Intent(MainActivity.this, Projects.class);
+                    Intent i=new Intent(MainActivity.this, Projects.class);
                     startActivity(i);
                     overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 }
