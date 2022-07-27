@@ -8,12 +8,14 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     ImageView git, link, insta, fb, mail;
     float x1, x2, y1, y2;
+    TextView contact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,22 @@ public class MainActivity extends AppCompatActivity {
         insta=findViewById(R.id.imageView3);
         fb=findViewById(R.id.imageView5);
         mail=findViewById(R.id.imageView6);
+        contact=findViewById(R.id.textView16);
+
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(MainActivity.this, ContactMe.class);
+                startActivity(i);
+            }
+        });
+
+        git.setOnHoverListener(new View.OnHoverListener() {
+            @Override
+            public boolean onHover(View v, MotionEvent event) {
+                return false;
+            }
+        });
 
         git.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Portfoliokekw">
         <activity
+            android:name=".ContactMe"
+            android:exported="false" />
+        <activity
             android:name=".Experience"
             android:exported="false" />
         <activity
